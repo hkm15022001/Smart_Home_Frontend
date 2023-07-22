@@ -1,0 +1,21 @@
+.home .ant-card-body:not(.output-card){
+    width: 540px !important;
+    height: 310px !important;
+    border-radius: 5px;
+}
+.home .ant-card{
+    border-radius: 5px;
+}
+/* .voice{
+    display: flex;
+    flex-direction: column; 
+    justify-items: flex-start;
+} */
+.output {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Số dòng tối đa hiển thị */
+    -webkit-box-orient: vertical;
+  }
+  
